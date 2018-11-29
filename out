@@ -1,0 +1,7 @@
+create table xyz(a int,b int);
+create table xyz(a int (10),b int);
+create table xyz(a int PRIMARY KEY ,b int);
+create table xyz(a int primary key,b int);
+create table xyz(a varchar (10) primary key,b int); 
+create table xyz(a int,b int,PRIMARY KEY(a,b));
+create table xyz(a int not null,b int);
